@@ -1,0 +1,28 @@
+# Data
+data/raw/
+data/interim/
+*.edf
+*.fif
+*.set
+*.vhdr
+*.vmrk
+*.eeg
+*.npz
+*.npy
+*.h5
+*.mat
+
+# Models & big artifacts
+models/*.pt
+models/*.pth
+models/*.h5
+
+# Notebooks and Python temp
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Envs & OS cruft
+.env
+venv/
+.DS_Store
